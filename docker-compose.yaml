@@ -9,6 +9,16 @@ services:
     networks:
       - mynet
 
+ server1:
+    build: app
+    networks:
+      - mynet
+
+ server2:
+    build: app
+    networks:
+      - mynet
+
 networks:
 
   mynet:
