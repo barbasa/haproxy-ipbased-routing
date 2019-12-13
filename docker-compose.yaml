@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+ haproxy:
+    build: haproxy
+    ports:
+      - "8090:80"
+    networks:
+      - mynet
+
+networks:
+
+  mynet:
+    driver: bridge
