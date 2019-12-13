@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-const require('ip');
+const ip = require('ip');
 
 // Constants
 const PORT = 8080;
